@@ -1,0 +1,132 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: dimgrey;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    color: white;
+    margin-left: 200px;
+    left: 30px;
+}
+header p{
+    position: absolute;
+    right: 200px;
+    font-size: 13px;
+}
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: #66BB33;
+}
+nav p{
+    margin-left: 5px;
+    line-height: 35px;
+    border: 1px solid black;
+    height: 35px;
+    width: 30px;
+    text-align: center;
+    background-color: #B2DD99;
+}
+nav p:nth-of-type(1){
+    position: absolute;
+    bottom: -10px;
+    right: 320px;
+}
+nav p:nth-of-type(2){
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    line-height: 64px;
+    right: 280px;
+    bottom: -10px;
+}
+nav p:nth-of-type(3){
+    position: absolute;
+    right: 240px;
+    bottom: -10px;
+}
+nav p:nth-of-type(4){
+    position: absolute;
+    right: 200px;
+    bottom: -10px;
+}
+.solid {
+    top: 370px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    border-color: darkgray;
+    border-style: hidden hidden solid hidden;
+    border-bottom-width: 1px;
+    margin-top: 20px;
+    height: 50px;
+    z-index: 1;
+}
+.solid p{
+    top: -10px;
+    position: absolute;
+    font-size: 20px;
+    border: darkgray 1px solid;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 1em 1em 0 0;
+    border-bottom-style: hidden;
+    background-color: #d6d6d6;
+    z-index: 0;
+}
+.solid p:nth-of-type(1){
+    background-color: white;
+    left: 200px;
+}
+.solid p:nth-of-type(2){
+    left: 302px;
+}
+.solid p:nth-of-type(3){
+    left: 404px;
+}
+.content{
+    width: calc(100% - 400px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.content div{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+}
+.content div:nth-of-type(1){
+    margin-top: 0;
+}
+.content div p{
+    flex: 1;
+    text-align: center;
+    border: darkgrey 1px solid;
+    margin-right: 10px;
+    height: 200px;
+    line-height: 200px;
+}
+footer{
+    height: 200px;
+    background-color: #666666;
+    text-align: center;
+    padding-top: 10px;
+    color: #d6d6d6;
+}
+
+
